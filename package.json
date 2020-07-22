@@ -1,6 +1,6 @@
 {
-  "name": "women-who-design",
-  "description": "A Twitter directory of accomplished women in the design industry.",
+  "name": "womxn-in-xr",
+  "description": "A Twitter directory of accomplished womxn in the XR industry.",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
