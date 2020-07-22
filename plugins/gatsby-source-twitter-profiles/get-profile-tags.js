@@ -26,6 +26,8 @@ module.exports = profile => {
   addDesignerTags("CREATIVE DIRECT", "creative");
   addDesignerTags("ART DIRECT", "art");
   addDesignerTags("DEVELOPER", "developer");
+  addDesignerTags("VR", "vr");
+  addDesignerTags("Oculus", "oculus");
 
   if (description.toUpperCase().includes("DIRECTOR") === true) {
     if (description.toUpperCase().includes("ART DIRECTOR") === true) {
@@ -66,6 +68,12 @@ module.exports = profile => {
   }
   if (description.includes("CEO") === true) {
     designerTagsObject.ceo = true;
+  }
+  if (description.includes("VR") === true) {
+    designerTagsObject.vr = true;
+  }
+  if (description.includes("Oculus") === true) {
+    designerTagsObject.oculus = true;
   }
 
   if (
