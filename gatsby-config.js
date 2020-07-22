@@ -6,7 +6,7 @@ module.exports = {
       resolve: "gatsby-source-twitter-profiles",
       options: {
         consumerKey: process.env.WXR_TWITTER_CONSUMER_KEY,
-        consumerSecret: process.env.WXR_TWITTER_CONSUMER_KEY,
+        consumerSecret: process.env.WXR_TWITTER_SECRET_KEY,
         bearerToken: process.env.WXR_TWITTER_BEARER_TOKEN,
         twitterIdForFollowingList: "1285658290811047937"
       }
