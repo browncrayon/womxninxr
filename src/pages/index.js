@@ -120,7 +120,7 @@ const App = ({ data }) => {
                       className={styles.filterItemInput}
                       title={category.title}
                       count={
-                        data[`tagCount${capitalize(category.id)}`].totalCount
+                        data.totalCount
                       }
                     />
                   ))}
