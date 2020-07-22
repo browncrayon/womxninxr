@@ -63,20 +63,19 @@ const sortedFriends = sortBy(friends, (friend) => friend.title);
 
 const App = () => (
   <Layout>
-    <Helmet title="About | Women Who Design" />
+    <Helmet title="About | Womxn in XR" />
     <Nav theme="light" />
     <div className={styles.container}>
       <h1 className={styles.h1}>About this project</h1>
       <p>
-        Women Who Design is a Twitter directory of accomplished women in the
-        design industry. It aims to help people find notable and relevant voices
+        Womxn in XR is a Twitter directory of accomplished womxn in the
+        XR industry. It aims to help people find notable and relevant voices
         to follow on Twitter by parsing Twitter bios for popular keywords.
       </p>
 
       <h2 className={styles.emphasis}>Source code</h2>
       <p>
-        Women Who Design is happy to support new directories highlighting
-        underrepresented or marginalized groups. If you're looking to start a
+        Womxn in XR was built using source code from <a href="http://www.twitter.com/julesforrest">Jules Forrest's</a> <a href="http://womenwho.design">Women Who Design</a> project. If you're looking to start a
         similar effort, feel free to fork the project on{" "}
         <a href="https://github.com/julesforrest/womenwhodesign">GitHub</a>.
       </p>
@@ -108,7 +107,7 @@ const App = () => (
         })}
       </div>
       <h1 className={styles.h1}>How to use</h1>
-      <p>Here are some things Women Who Design can help you with:</p>
+      <p>Here are some things Womxn in XR can help you with:</p>
 
       <h2 className={styles.emphasis}>
         Use{" "}
@@ -215,7 +214,7 @@ const App = () => (
       <h1 className={styles.h1}>Other notes</h1>
       <h2 className={styles.emphasis}>Support</h2>
       <p>
-        Women Who Design is an independent project. If you're interested in
+        Womxn in XR is an independent project. If you're interested in
         supporting it, please consider posting a job.
       </p>
       <Button
